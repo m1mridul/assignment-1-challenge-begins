@@ -66,8 +66,7 @@
 /* banner-section ends here */
 .web-development-container {
     width: 1140px;
-    height: 1393px;
-    border: 2px solid red;
+    height: 1000px;
     margin: 0 auto;
     margin-top: 78px;
 }
@@ -94,7 +93,6 @@
 .the-world-container {
     width: 850px;
     height: 240px;
-    border: 2px solid rebeccapurple;
     margin: 0 auto;
     margin-top: 48px;
     display: flex;
@@ -118,6 +116,7 @@
     color: rgb(13, 19, 33);
 
 }
+
 .the-world button {
     width: 171px;
     height: 47px;
@@ -126,10 +125,10 @@
     margin-top: 38px;
     color: rgb(13, 19, 33);
 }
+
 .modern-web-container {
     width: 850px;
     height: 240px;
-    border: 2px solid rebeccapurple;
     margin: 0 auto;
     margin-top: 48px;
     display: flex;
@@ -156,4 +155,127 @@
     font-size: 20px;
     font-weight: 600;
     margin-top: 38px;
+}
+
+.inspiration-container {
+    width: 1140px;
+    height: 775px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+#inspiration {
+    margin-left: 40px;
+}
+
+.web-development h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.web-development p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+}
+
+/* next-target-container starts here */
+.next-target-container {
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    border: 2px solid red;
+}
+
+#myself {
+    margin-left: 120px;
+}
+
+.current-target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.current-target h1 {
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.current-target p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.first-cart {
+    width: 364px;
+    height: 299px;
+    border: 2px solid rebeccapurple;
+    margin-top: 48px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.first-cart h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.first-cart p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.second-cart{
+    width: 364px;
+    height: 299px;
+    border: 2px solid rebeccapurple;
+    margin-top: 48px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+.second-cart h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.second-cart p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.third-cart{
+    width: 364px;
+    height: 299px;
+    border: 2px solid rebeccapurple;
+    margin-top: 48px;
+    padding: 40px;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05)
+}
+.third-cart h1 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-top: 20px;
+}
+
+.third-cart p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.cart-container{
+    display: flex;
+    justify-content: space-between;
 }
