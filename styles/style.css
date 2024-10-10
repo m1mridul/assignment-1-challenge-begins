@@ -14,7 +14,6 @@
 .banner-container {
     width: 1440px;
     height: 652px;
-    border: 2px solid red;
     margin: 0 auto;
     margin-top: 20px;
     background-image: url("/assets/Hero-bg.png");
@@ -65,10 +64,96 @@
 }
 
 /* banner-section ends here */
-.web-development-container{
+.web-development-container {
     width: 1140px;
     height: 1393px;
     border: 2px solid red;
     margin: 0 auto;
     margin-top: 78px;
+}
+
+.web-development {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.web-development h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.web-development p {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.the-world-container {
+    width: 850px;
+    height: 240px;
+    border: 2px solid rebeccapurple;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.the-world {
+    padding-left: 70px;
+}
+
+.the-world h3 {
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.the-world p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    color: rgb(13, 19, 33);
+
+}
+.the-world button {
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 38px;
+    color: rgb(13, 19, 33);
+}
+.modern-web-container {
+    width: 850px;
+    height: 240px;
+    border: 2px solid rebeccapurple;
+    margin: 0 auto;
+    margin-top: 48px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.modern-web h3 {
+    font-weight: 700;
+    font-size: 24px;
+    padding-right: 200px;
+    color: rgba(13, 19, 33, 0.7);
+}
+
+.modern-web p {
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 16px;
+    color: rgb(13, 19, 33);
+}
+
+.modern-web button {
+    width: 171px;
+    height: 47px;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 38px;
 }
