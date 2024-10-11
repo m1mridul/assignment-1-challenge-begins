@@ -10,6 +10,35 @@
     padding: 0;
 }
 
+.nav-section {
+    width: 1440px;
+    height: 50px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.nav-section h1 {
+    font-size: 28px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.nav-section button {
+    width: 244px;
+    height: 57px;
+    border: 1px;
+    border-radius: 8px;
+}
+
+.nav-section button h3 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
 /* banner-section starts here */
 .banner-container {
     width: 1440px;
@@ -180,12 +209,11 @@
     color: rgb(13, 19, 33);
 }
 
-/* next-target-container starts here */
-.next-target-container {
+/* current-target-container starts here */
+.current-target-container {
     width: 1140px;
     height: 460px;
     margin: 0 auto;
-    border: 2px solid red;
 }
 
 #myself {
@@ -214,7 +242,6 @@
 .first-cart {
     width: 364px;
     height: 299px;
-    border: 2px solid rebeccapurple;
     margin-top: 48px;
     padding: 40px;
     border-radius: 16px;
@@ -233,15 +260,16 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.second-cart{
+
+.second-cart {
     width: 364px;
     height: 299px;
-    border: 2px solid rebeccapurple;
     margin-top: 48px;
     padding: 40px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
 }
+
 .second-cart h1 {
     font-size: 24px;
     font-weight: 800;
@@ -254,15 +282,16 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.third-cart{
+
+.third-cart {
     width: 364px;
     height: 299px;
-    border: 2px solid rebeccapurple;
     margin-top: 48px;
     padding: 40px;
     border-radius: 16px;
     background: rgba(255, 223, 0, 0.05)
 }
+
 .third-cart h1 {
     font-size: 24px;
     font-weight: 800;
@@ -275,7 +304,205 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.cart-container{
+
+.cart-container {
     display: flex;
     justify-content: space-between;
+}
+
+/* next-target-container starts here  */
+.next-target-container {
+    width: 1140px;
+    height: 866px;
+    margin: 0 auto;
+    margin-top: 111px;
+}
+
+.next-target {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.next-target h1 {
+    font-size: 32px;
+    font-weight: 800;
+    color: rgb(13, 19, 33);
+}
+
+.next-target p {
+    font-size: 16px;
+    font-weight: 400;
+    color: rgb(13, 19, 33);
+    margin-top: 10px;
+}
+
+.target-first-cart {
+    width: 1140px;
+    height: 219px;
+    border: 2px solid red;
+    margin-top: 60px;
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.target-first-cart h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+
+.target-first-cart p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+
+.target-first-cart a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.target-second-cart {
+    width: 1140px;
+    height: 219px;
+    border: 2px solid red;
+    margin-top: 30px;
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.target-second-cart h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+
+.target-second-cart p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+
+.target-second-cart a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+.target-third-cart {
+    width: 1140px;
+    height: 219px;
+    border: 2px solid red;
+    margin-top: 30px;
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+}
+
+.target-third-cart h2 {
+    font-size: 24px;
+    font-weight: 800;
+    margin-left: 50px;
+}
+
+.target-third-cart p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+
+}
+
+.target-third-cart a {
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* support-section start here */
+.support-section {
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 49px;
+    background-image: url("/assets/handshake.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 16px;
+}
+
+.support-caption {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.support-caption h1 {
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 64px;
+}
+
+.support-caption p {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+
+.support-caption input {
+    width: 548px;
+    height: 57px;
+    box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 15px;
+    margin-top: 24px;
+}
+
+.sub-butt {
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    te
 }
