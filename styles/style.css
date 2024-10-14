@@ -485,7 +485,7 @@
     height: 313px;
     margin: 0 auto;
     margin-top: 49px;
-    background-image: url("/assets/handshake.jpg");
+    background-image: url("assets/handshake.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-blend-mode: overlay;
